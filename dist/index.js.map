@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sources":["../src/foo/index.ts"],"sourcesContent":["const foo = (arg?: number) => {\n  console.log('foo', arg);\n}\n\nexport default foo;\n"],"names":["arg","console","log"],"mappings":"eAAY,SAACA,GACXC,QAAQC,IAAI,MAAOF"}
