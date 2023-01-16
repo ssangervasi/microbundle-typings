@@ -1,5 +1,1 @@
-const foo = (arg?: number) => {
-  console.log('foo', arg);
-}
-
-export default foo;
+export const foo = () => console.log("foo");

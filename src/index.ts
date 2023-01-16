@@ -1,3 +1,3 @@
-import foo from './foo';
+export * from "./foo";
 
-export default foo;
+export const bar = () => console.log("bar");

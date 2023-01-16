@@ -1,0 +1,20 @@
+{
+  "name": "test-package",
+  "version": "0.0.1",
+  "description": "",
+  "type": "module",
+  "source": "src/index.ts",
+  "main": "dist/index.cjs",
+  "module": "dist/index.mjs",
+  "scripts": {
+    "build": "tsc --traceResolution"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "microbundle-typings": ".."
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}

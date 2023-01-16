@@ -1,0 +1,13 @@
+#! /usr/bin/env bash
+npm run build | tee ./build.log
+
+# Obfuscate build machine paths
+sed -i "s|/[^ ]*$USER|~|g" ./build.log
+
+echo '
+###############
+# The problem #
+###############
+' | tee -a ./build.log
+
+grep -A 25 "======== Resolving module 'microbundle-typings'" ./build.log | tee -a ./build.log

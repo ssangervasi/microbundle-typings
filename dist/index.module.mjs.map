@@ -1,0 +1,1 @@
+{"version":3,"file":"index.module.mjs","sources":["../src/foo.ts","../src/index.ts"],"sourcesContent":["export const foo = () => console.log(\"foo\");\n","export * from \"./foo\";\n\nexport const bar = () => console.log(\"bar\");\n"],"names":["foo","console","log"],"mappings":"AAAaA,IAAGA,EAAG,WAAMC,OAAAA,QAAQC,IAAI,MAAM,ICExB,WAAH,OAAgBD,QAACC,IAAI,MAAM"}
